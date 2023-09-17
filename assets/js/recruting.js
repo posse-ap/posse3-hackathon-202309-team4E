@@ -1,3 +1,4 @@
+/*このページのjavascriptは角野が記述しました*/
 const typeTarget = document.querySelectorAll('.typeing');
 
 let options = {
