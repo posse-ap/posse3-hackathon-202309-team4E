@@ -1,0 +1,304 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    color: #333333;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.footer {
+    background-color: #F5CBDC;
+}
+
+.margin-bottom16px {
+    margin-bottom: 16px;
+}
+
+.footer-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-logo-img {
+    width: 300px;
+}
+
+.footer-logo2-li {
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer-sns-img {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-sns-img:hover {
+    filter: brightness(10)
+}
+
+.footer-bottom-par {
+    border-top: #fff solid 1px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-bottom-chi {
+    display: flex;
+    justify-content: center;
+    color: #f5aaaa;
+    width: 100%;
+}
