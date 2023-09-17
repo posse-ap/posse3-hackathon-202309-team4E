@@ -297,3 +297,189 @@ body{
     justify-content: center;
     color: #f5aaaa;
     width: 100%;
+}
+
+/*メインのページから飛んだページ（Planning,Recruiting,Members）のフッダー*/
+.recruiting-footer {
+    background-color: #cbebf7;
+}
+
+.recruiting-footer-bottom-chi {
+    display: flex;
+    justify-content: center;
+    color: #56cefa;
+    width: 100%;
+}
+
+.members-footer{
+    background-color: #ffdbd1;
+}
+
+.members-footer-bottom-chi{
+    display: flex;
+    justify-content: center;
+    color: #ff7e5a;
+    width: 100%;
+}
+
+.planning-footer{
+    background-color: #dcf7de;
+}
+
+.planing-footer-bottom-chi{
+    display: flex;
+    justify-content: center;
+    color:  #4dff58;
+    width: 100%;
+}
+
+
+/*メインのページから飛んだページ（Planning,Recruiting,Members）のヘッダー*/
+.Planning-header{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    background-color: #dcf7de;
+    top: 0%;
+    left: 0%;
+    border-bottom: solid 1px #EEEEEE;
+    padding: 0 24px;
+    z-index: 10000;
+}
+.Recruiting-header{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    background-color: #cbebf7;
+    top: 0%;
+    left: 0%;
+    border-bottom: solid 1px #EEEEEE;
+    padding: 0 24px;
+    z-index: 10000;
+}
+.Members-header{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    background-color: #ffdbd1;
+    top: 0%;
+    left: 0%;
+    border-bottom: solid 1px #EEEEEE;
+    padding: 0 24px;
+    z-index: 10000;
+}
+.subPage-header-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+/*Recruiting*/
+.recruiting-en{
+    padding-top: -30px;
+        font-size: 36px;
+        line-height: 1.5;
+        letter-spacing: .05em;
+        display: block;
+        font-weight: bold;
+}
+.recruiting-ja{
+        font-weight: bold;
+        display: block;
+        font-size: 25px;
+        line-height: 1.5;
+        letter-spacing: .1em;
+        margin-top: 8px;
+        color: #cbebf7;
+        font-family: 'Plus Jakarta Sans' ,sans-serif
+}
+.recruiting-title-lead-sentence{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.recruiting-section-body{
+    padding: 20px 0 20px 0;
+    margin-top: 40px;
+}
+.recruiting-img{
+    border-radius: 40px;
+    width: 400px;
+    height: 300px;
+}
+.recruiting-name{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    margin-left: 20px;
+}
+.recruiting-List{
+    display: flex;
+    flex-direction: row;
+    gap:75px;
+    align-items: center;
+    justify-content: center;
+}
+.recruiting-button-page{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.recruiting-button{
+    display: block;
+    cursor: pointer;
+    width: 200px;
+    text-align: center;
+    border: 1px solid #232323;
+    border-radius: 10px;
+}
+
+.recruiting-deadline{
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    font-family: 'Plus Jakarta Sans' , sans-serif;
+    color: #626262;
+}
+.recruiting-description{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    margin-top: 12px;
+}
+.recruiting-itembody{
+    text-align: center;
+}
+.typeing {
+    opacity: 0;
+    font-weight: bold;
+    display: block;
+    font-size: 25px;
+    line-height: 1.5;
+    letter-spacing: .1em;
+    margin-top: 8px;
+    color: #26b9ef;
+    font-family: 'Plus Jakarta Sans' ,sans-serif
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.typeing.active {
+    opacity: 1;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
