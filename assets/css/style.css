@@ -1,102 +1,102 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body{
+    padding-top: 130px;
+    color: #333333;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    height: 130px;
+    position: fixed;
+    width: 100%;
+    background-color: #F5CBDC;
+    top: 0%;
+    left: 0%;/**/
+    border-bottom: solid 1px #EEEEEE;
+    padding: 0 24px;
+    z-index: 10000;
+}
+
+.header-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 530px;
+}
+
+.header-instaLink{
+    display: flex;
+    padding-left: 450px;
+    justify-content: center;
+}
+
+.mainvisual-nav-upper {
+    display: flex;
+    height: 400px;
+}
+
+.Planning {
+    position: relative;
+    width: 50%;
+    background: url(../img/Planning.jpg) center / cover no-repeat;
+    position: relative;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.Planning-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    font-weight: bolder;
+    color: #fff;
+    -webkit-text-stroke: 1px #dcf7de;
+}
+
+.Recruiting {
+    width: 50%;
+    background: url(../img/recruiting.jpg) center center / cover no-repeat;
+    position: relative;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.Recruiting-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    font-weight: bolder;
+    color: #fff;
+    -webkit-text-stroke: 1px #cbebf7;
+}
+
+.Members {
+    height: 400px;
+    background: url(../img/入学式.jpg) center center / cover no-repeat;
+    position: relative;
+    border-top: 2px solid #fff;
+}
+
+.Members-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    font-weight: bolder;
+    color: #fff;
+    -webkit-text-stroke: 1px #ffdbd1;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*汎用スタイル*/
 .section{
     padding-top: 80px;
     margin-top: -80px;
@@ -252,150 +252,48 @@
     margin-top: 12px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
-html {
-	scroll-behavior: smooth;
-}
-
-body{
-    padding-top: 130px;
-}
-
-.header{
-    display: flex;
-    align-items: center;
-    height: 130px;
-    position: fixed;
-    width: 100%;
+.footer {
     background-color: #F5CBDC;
-    top: 0%;
-    left: 0%;/**/
-    border-bottom: solid 1px #EEEEEE;
-    padding: 0 24px;
-    z-index: 10000;
 }
 
-.header-logo{
+.margin-bottom16px {
+    margin-bottom: 16px;
+}
+
+.footer-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-logo-img {
+    width: 300px;
+}
+
+.footer-logo2-li {
+    color: #fff;
+    font-size: 16px;
+}
+
+.footer-sns-img {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-sns-img:hover {
+    filter: brightness(10)
+}
+
+.footer-bottom-par {
+    border-top: #fff solid 1px;
+    height: 40px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding-left: 530px;
 }
 
-.header-instaLink{
+.footer-bottom-chi {
     display: flex;
-    padding-left: 450px;
     justify-content: center;
-}
-
-.mainvisual-nav-upper {
-    display: flex;
-    height: 400px;
-}
-
-.Planning {
-    position: relative;
-    width: 50%;
-    background: url(../img/Planning.jpg) center / cover no-repeat;
-    position: relative;
-    border-right: 2px solid #fff;
-    border-bottom: 2px solid #fff;
-}
-
-.Planning-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 3em;
-    font-weight: bolder;
-    color: #fff;
-    -webkit-text-stroke: 1px #dcf7de;
-}
-
-.Recruiting {
-    width: 50%;
-    background: url(../img/recruiting.jpg) center center / cover no-repeat;
-    position: relative;
-    border-left: 2px solid #fff;
-    border-bottom: 2px solid #fff;
-}
-
-.Recruiting-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 3em;
-    font-weight: bolder;
-    color: #fff;
-    -webkit-text-stroke: 1px #cbebf7;
-}
-
-.Members {
-    height: 400px;
-    background: url(../img/入学式.jpg) center center / cover no-repeat;
-    position: relative;
-    border-top: 2px solid #fff;
-}
-
-.Members-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 3em;
-    font-weight: bolder;
-    color: #fff;
-    -webkit-text-stroke: 1px #ffdbd1;
-}
+    color: #f5aaaa;
+    width: 100%;
