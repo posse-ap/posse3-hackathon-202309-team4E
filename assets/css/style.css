@@ -41,7 +41,7 @@ body {
 
 .mainvisual-nav-upper {
     display: flex;
-    height: 400px;
+    height: 291.5px;
 }
 
 .Planning {
@@ -51,6 +51,7 @@ body {
     position: relative;
     border-right: 2px solid #fff;
     border-bottom: 2px solid #fff;
+    height: 291.5px;
 }
 
 .Planning-text {
@@ -70,6 +71,7 @@ body {
     position: relative;
     border-left: 2px solid #fff;
     border-bottom: 2px solid #fff;
+    height: 291.5px;
 }
 
 .Recruiting-text {
@@ -88,6 +90,7 @@ body {
     background: url(../img/入学式.jpg) center center / cover no-repeat;
     position: relative;
     border-top: 2px solid #fff;
+    height: 291.5px;
 }
 
 .Members-text {
@@ -120,7 +123,6 @@ body {
 
 .title {
     text-align: center;
-    margin-top: 50px;
     margin-bottom: 20px;
     padding-top: 100px;
 }
@@ -134,7 +136,7 @@ body {
 }
 
 
-.title-en1{
+.title-en1 {
     font-weight: bold;
     display: block;
     font-size: 25px;
@@ -145,7 +147,7 @@ body {
     font-family: 'Plus Jakarta Sans', sans-serif
 }
 
-.title-en2{
+.title-en2 {
     font-weight: bold;
     display: block;
     font-size: 25px;
@@ -153,7 +155,7 @@ body {
     letter-spacing: .1em;
     margin-top: 8px;
     color: #ffdbd1;
-    font-family: 'Plus Jakarta Sans' ,sans-serif
+    font-family: 'Plus Jakarta Sans', sans-serif
 }
 
 
@@ -305,7 +307,7 @@ body {
     filter: brightness(10)
 }
 
-.header-instaLink:hover{
+.header-instaLink:hover {
     filter: brightness(10)
 }
 
@@ -324,55 +326,55 @@ body {
 }
 
 /*member*/
-.members-items{
+.members-items {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-.members-item{
+.members-item {
     box-sizing: border-box;
     margin: 0;
     width: 400px;
     height: 400px;
 }
 
-.boxes{
+.boxes {
     width: 80%;
     height: 300px;
     margin: 0 auto;
     cursor: pointer;
 }
 
-.box{
+.box {
     width: 100%;
     height: 100%;
 }
 
-.box1{
+.box1 {
     width: 800px;
 }
 
-.hidden{
+.hidden {
     display: none;
 }
 
-.custom-carousel-container-2{
+.custom-carousel-container-2 {
     width: 100%;
     height: 300px;
     overflow: hidden;
     position: relative;
 }
 
-.custom-carousel-boxes{
+.custom-carousel-boxes {
     width: 100%;
     height: 100%;
     display: flex;
     transition: .3s;
 }
 
-#li{
+#li {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -385,7 +387,7 @@ body {
     cursor: pointer;
 }
 
-#gt{
+#gt {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -410,31 +412,31 @@ body {
     width: 100%;
 }
 
-.members-footer{
+.members-footer {
     background-color: #ffdbd1;
 }
 
-.members-footer-bottom-chi{
+.members-footer-bottom-chi {
     display: flex;
     justify-content: center;
     color: #ff7e5a;
     width: 100%;
 }
 
-.planning-footer{
+.planning-footer {
     background-color: #dcf7de;
 }
 
-.planing-footer-bottom-chi{
+.planing-footer-bottom-chi {
     display: flex;
     justify-content: center;
-    color:  #4dff58;
+    color: #4dff58;
     width: 100%;
 }
 
 
 /*メインのページから飛んだページ（Planning,Recruiting,Members）のヘッダー*/
-.Planning-header{
+.Planning-header {
     justify-content: center;
     display: flex;
     align-items: center;
@@ -448,7 +450,8 @@ body {
     padding: 0 24px;
     z-index: 10000;
 }
-.Recruiting-header{
+
+.Recruiting-header {
     display: flex;
     align-items: center;
     height: 70px;
@@ -461,7 +464,8 @@ body {
     padding: 0 24px;
     z-index: 10000;
 }
-.Members-header{
+
+.Members-header {
     display: flex;
     align-items: center;
     height: 70px;
@@ -474,7 +478,8 @@ body {
     padding: 0 24px;
     z-index: 10000;
 }
-.subPage-header-logo{
+
+.subPage-header-logo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -483,59 +488,67 @@ body {
 
 
 /*Recruiting*/
-.recruiting-en{
+.recruiting-en {
     padding-top: -30px;
-        font-size: 36px;
-        line-height: 1.5;
-        letter-spacing: .05em;
-        display: block;
-        font-weight: bold;
+    font-size: 36px;
+    line-height: 1.5;
+    letter-spacing: .05em;
+    display: block;
+    font-weight: bold;
 }
-.recruiting-ja{
-        font-weight: bold;
-        display: block;
-        font-size: 25px;
-        line-height: 1.5;
-        letter-spacing: .1em;
-        margin-top: 8px;
-        color: #cbebf7;
-        font-family: 'Plus Jakarta Sans' ,sans-serif
+
+.recruiting-ja {
+    font-weight: bold;
+    display: block;
+    font-size: 25px;
+    line-height: 1.5;
+    letter-spacing: .1em;
+    margin-top: 8px;
+    color: #cbebf7;
+    font-family: 'Plus Jakarta Sans', sans-serif
 }
-.recruiting-title-lead-sentence{
+
+.recruiting-title-lead-sentence {
     text-align: center;
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
 }
-.recruiting-section-body{
+
+.recruiting-section-body {
     padding: 20px 0 20px 0;
     margin-top: 40px;
 }
-.recruiting-img{
+
+.recruiting-img {
     border-radius: 40px;
     width: 400px;
     height: 300px;
 }
-.recruiting-name{
+
+.recruiting-name {
     font-weight: bold;
     font-size: 30px;
     line-height: 1.5;
     letter-spacing: 0.05em;
     margin-left: 20px;
 }
-.recruiting-List{
+
+.recruiting-List {
     display: flex;
     flex-direction: row;
-    gap:75px;
+    gap: 75px;
     align-items: center;
     justify-content: center;
 }
-.recruiting-button-page{
+
+.recruiting-button-page {
     padding-top: 20px;
     display: flex;
     justify-content: center;
 }
-.recruiting-button{
+
+.recruiting-button {
     display: block;
     cursor: pointer;
     width: 200px;
@@ -544,23 +557,26 @@ body {
     border-radius: 10px;
 }
 
-.recruiting-deadline{
+.recruiting-deadline {
     font-weight: bold;
     font-size: 25px;
     line-height: 1;
     letter-spacing: 0.05em;
-    font-family: 'Plus Jakarta Sans' , sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     color: #626262;
 }
-.recruiting-description{
+
+.recruiting-description {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.03em;
     margin-top: 12px;
 }
-.recruiting-itembody{
+
+.recruiting-itembody {
     text-align: center;
 }
+
 .typeing {
     opacity: 0;
     font-weight: bold;
@@ -579,7 +595,7 @@ body {
 
 .typeing.active {
     opacity: 1;
-    padding-top:20px;
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 

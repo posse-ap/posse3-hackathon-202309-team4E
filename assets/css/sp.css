@@ -32,7 +32,7 @@
     .event-item:nth-of-type(even) .event-list {
         margin-left: 0;
     }
-
+    
     .event-itemimage:nth-of-type(even) .daily-img-par {
         margin-left: 0;
     }
