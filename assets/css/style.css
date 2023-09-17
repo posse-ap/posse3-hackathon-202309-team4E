@@ -1,14 +1,14 @@
 html {
-	scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
-body{
+body {
     padding-top: 130px;
     color: #333333;
     font-family: "Noto Sans JP", sans-serif;
 }
 
-.header{
+.header {
     display: flex;
     align-items: center;
     height: 130px;
@@ -16,23 +16,27 @@ body{
     width: 100%;
     background-color: #F5CBDC;
     top: 0%;
-    left: 0%;/**/
+    left: 0%;
+    /**/
     border-bottom: solid 1px #EEEEEE;
     padding: 0 24px;
     z-index: 10000;
+    justify-content: center;
 }
 
-.header-logo{
+.header-logo {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 530px;
+    /* padding-left: 530px; */
 }
 
-.header-instaLink{
+.header-instaLink {
     display: flex;
-    padding-left: 450px;
+    /* padding-left: 450px; */
     justify-content: center;
+    position: absolute;
+    right: 48px;
 }
 
 .mainvisual-nav-upper {
@@ -80,7 +84,7 @@ body{
 }
 
 .Members {
-    height: 400px;
+    height: 525px;
     background: url(../img/入学式.jpg) center center / cover no-repeat;
     position: relative;
     border-top: 2px solid #fff;
@@ -97,37 +101,38 @@ body{
     -webkit-text-stroke: 1px #ffdbd1;
 }
 
-.section{
+.section {
     padding-top: 80px;
     margin-top: -80px;
 }
 
-.section-head{
+.section-head {
     text-align: center;
 }
 
-.section-body{
+.section-body {
     margin-top: 40px;
 }
 
-.section-lead{
+.section-lead {
     text-align: center;
 }
 
-.title{
+.title {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 20px;
     padding-top: 100px;
 }
 
-.title-ja{
+.title-ja {
     font-size: 36px;
     line-height: 1.5;
     letter-spacing: .05em;
     display: block;
     font-weight: bold;
 }
+
 
 .title-en1{
     font-weight: bold;
@@ -137,7 +142,7 @@ body{
     letter-spacing: .1em;
     margin-top: 8px;
     color: #f5cbdc;
-    font-family: 'Plus Jakarta Sans' ,sans-serif
+    font-family: 'Plus Jakarta Sans', sans-serif
 }
 
 .title-en2{
@@ -153,7 +158,7 @@ body{
 
 
 /*イベント*/
-.setsumei{
+.setsumei {
     text-align: center;
     display: flex;
     justify-content: center;
@@ -161,30 +166,30 @@ body{
     font-size: 20px
 }
 
-.event-list{
+.event-list {
     padding: 40px;
     display: flex;
     flex-direction: column;
     gap: 120px;
 }
 
-.event-item{
+.event-item {
     display: flex;
     border-radius: 10px;
     background-color: #f5dfe7;
     min-height: 324px;
 }
 
-.event-item:nth-of-type(odd){
+.event-item:nth-of-type(odd) {
     flex-direction: row-reverse;
     margin-right: 40px;
 }
 
-.event-item:nth-of-type(even){
+.event-item:nth-of-type(even) {
     margin-left: 40px;
 }
 
-.event-itemimage{
+.event-itemimage {
     border-radius: 10px;
     overflow: hidden;
     width: 550px;
@@ -193,36 +198,37 @@ body{
     margin-top: -40px;
 }
 
-.img{
+.img {
     width: 100%;
 }
-.event-itemimage img{
+
+.event-itemimage img {
     object-fit: cover;
 }
 
-.event-item:nth-of-type(odd) .event-itemimage{
+.event-item:nth-of-type(odd) .event-itemimage {
     margin-right: -40px;
 }
 
-.event-item:nth-of-type(even) .event-itemimage{
+.event-item:nth-of-type(even) .event-itemimage {
     margin-left: -40px;
 }
 
-.event-itembody{
+.event-itembody {
     padding: 48px 56px;
     width: 100%;
 }
 
-.event-day{
+.event-day {
     font-weight: bold;
     font-size: 58px;
     color: white;
     line-height: 1;
     letter-spacing: 0.05em;
-    font-family: 'Plus Jakarta Sans' , sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
-.event-name{
+.event-name {
     font-weight: bold;
     font-size: 50px;
     line-height: 1.5;
@@ -230,14 +236,14 @@ body{
     margin-left: 20px;
 }
 
-.event-outline{
+.event-outline {
     margin-top: 40px;
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.event-outlineitem::before{
+.event-outlineitem::before {
     content: '';
     display: block;
     width: 50px;
@@ -248,7 +254,7 @@ body{
     background-size: contain;
 }
 
-.event-outlineitem{
+.event-outlineitem {
     display: flex;
     text-align: center;
     font-weight: bold;
@@ -259,7 +265,7 @@ body{
     align-items: center;
 }
 
-.event-description{
+.event-description {
     font-size: 20px;
     line-height: 1.8;
     letter-spacing: 0.05em;
@@ -296,6 +302,10 @@ body{
 }
 
 .footer-sns-img:hover {
+    filter: brightness(10)
+}
+
+.header-instaLink:hover{
     filter: brightness(10)
 }
 
@@ -386,4 +396,191 @@ body{
     font-size: 24px;
     padding: 0 12px;
     cursor: pointer;
+=======
+
+}
+
+/*メインのページから飛んだページ（Planning,Recruiting,Members）のフッダー*/
+.recruiting-footer {
+    background-color: #cbebf7;
+}
+
+.recruiting-footer-bottom-chi {
+    display: flex;
+    justify-content: center;
+    color: #56cefa;
+    width: 100%;
+}
+
+.members-footer{
+    background-color: #ffdbd1;
+}
+
+.members-footer-bottom-chi{
+    display: flex;
+    justify-content: center;
+    color: #ff7e5a;
+    width: 100%;
+}
+
+.planning-footer{
+    background-color: #dcf7de;
+}
+
+.planing-footer-bottom-chi{
+    display: flex;
+    justify-content: center;
+    color:  #4dff58;
+    width: 100%;
+}
+
+
+/*メインのページから飛んだページ（Planning,Recruiting,Members）のヘッダー*/
+.Planning-header{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    background-color: #dcf7de;
+    top: 0%;
+    left: 0%;
+    border-bottom: solid 1px #EEEEEE;
+    padding: 0 24px;
+    z-index: 10000;
+}
+.Recruiting-header{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    background-color: #cbebf7;
+    top: 0%;
+    left: 0%;
+    border-bottom: solid 1px #EEEEEE;
+    padding: 0 24px;
+    z-index: 10000;
+}
+.Members-header{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    background-color: #ffdbd1;
+    top: 0%;
+    left: 0%;
+    border-bottom: solid 1px #EEEEEE;
+    padding: 0 24px;
+    z-index: 10000;
+}
+.subPage-header-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+/*Recruiting*/
+.recruiting-en{
+    padding-top: -30px;
+        font-size: 36px;
+        line-height: 1.5;
+        letter-spacing: .05em;
+        display: block;
+        font-weight: bold;
+}
+.recruiting-ja{
+        font-weight: bold;
+        display: block;
+        font-size: 25px;
+        line-height: 1.5;
+        letter-spacing: .1em;
+        margin-top: 8px;
+        color: #cbebf7;
+        font-family: 'Plus Jakarta Sans' ,sans-serif
+}
+.recruiting-title-lead-sentence{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.recruiting-section-body{
+    padding: 20px 0 20px 0;
+    margin-top: 40px;
+}
+.recruiting-img{
+    border-radius: 40px;
+    width: 400px;
+    height: 300px;
+}
+.recruiting-name{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    margin-left: 20px;
+}
+.recruiting-List{
+    display: flex;
+    flex-direction: row;
+    gap:75px;
+    align-items: center;
+    justify-content: center;
+}
+.recruiting-button-page{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.recruiting-button{
+    display: block;
+    cursor: pointer;
+    width: 200px;
+    text-align: center;
+    border: 1px solid #232323;
+    border-radius: 10px;
+}
+
+.recruiting-deadline{
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    font-family: 'Plus Jakarta Sans' , sans-serif;
+    color: #626262;
+}
+.recruiting-description{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    margin-top: 12px;
+}
+.recruiting-itembody{
+    text-align: center;
+}
+.typeing {
+    opacity: 0;
+    font-weight: bold;
+    display: block;
+    font-size: 25px;
+    line-height: 1.5;
+    letter-spacing: .1em;
+    margin-top: 8px;
+    color: #26b9ef;
+    font-family: 'Plus Jakarta Sans' ,sans-serif
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.typeing.active {
+    opacity: 1;
+    padding-top:20px;
+    padding-bottom: 20px;
 }
