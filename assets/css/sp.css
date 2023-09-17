@@ -32,7 +32,7 @@
     .event-item:nth-of-type(even) .event-list {
         margin-left: 0;
     }
-
+    
     .event-itemimage:nth-of-type(even) .daily-img-par {
         margin-left: 0;
     }
@@ -100,11 +100,11 @@
     }
 }
 
-/* @media(max-width:760px) {
+@media(max-width:760px) {
     .event-list{
         justify-content: unset;
     }
-} */
+}
 
 @media(max-width:300px){
     .footer-logo-img{

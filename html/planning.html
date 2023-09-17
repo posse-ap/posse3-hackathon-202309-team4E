@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +10,13 @@
     <link rel="stylesheet" href="../assets/css/sp.css">
     <link rel="stylesheet" href="../assets/css/style.css">
     <script src="../assets/js/planning.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Plus+Jakarta+Sans:wght@400;700&family=Zen+Maru+Gothic:wght@400;700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <header class="Planning-header">
         <a href="./mainvisual.html" class="subPage-header-logo">
@@ -17,73 +24,115 @@
         </a>
     </header>
     <main>
-    <div class="Planning-wrapper">
-        <div class="Planning-title">
-            <span class="Planning-title-text">やりたいこと募集欄</span>
-        </div>
-        <div class="Planning-outline">
-            <ul class="Planning-list">
-                <div class="list-item">
-                    <li class="Planning-item">
-                        <figure class="Planning-itemImage">
-                            <img src="../assets/img/ミニハッカソン.jpg" alt="ミニハッカソン">
-                        </figure>
-                        <div class="Planning-itembody">
-                            <div class="Planning-item-title">
-                                <h2>9/17(土) みんなでミニハッカソン</h2>
-                            </div>
-                            <div class="Planning-detail">
-                                <p class="datetime">9/17(日) 19:00</p>
-                                <p class="where">Harbors</p>
-                                <p class="parcitipants">12/25名</p>
-                                <div id="new-screen" class="detail-screen">
+        <div class="Planning-wrapper">
+            <div class="Planning-title">
+                <span class="Planning-title-text">やりたいこと募集欄</span>
+            </div>
+            <div class="Planning-outline">
+                <ul class="Planning-list">
+                    <div class="list-item">
+                        <li class="Planning-item">
+                            <figure class="Planning-itemImage">
+                                <img src="../assets/img/ミニハッカソン.jpg" alt="ミニハッカソン">
+                            </figure>
+                            <div class="Planning-itembody">
+                                <div class="Planning-item-title">
+                                    <h2>9/17(土) みんなでミニハッカソン</h2>
                                 </div>
-                                <button class="Planning-detail-button" id="open-button">詳細はこちら</button>
-                                <div class="detail-content">
-                                    <!-- なんかここに書く -->
+                                <div class="Planning-detail">
+                                    <p class="datetime">9/17(日) 19:00</p>
+                                    <p class="where">Harbors</p>
+                                    <p class="parcitipants">12/25名</p>
+                                    <!-- <div id="new-screen" class="detail-screen">
+                                    </div> -->
+                                    <button class="Planning-detail-button" id="open-button">詳細はこちら</button>
+                                    <div class="detail-content hidden" id="detail-sheet">
+                                        <!-- なんかここに書く -->
+                                        <ul class="detail-flex" 　id="detail-1" class="hidden">
+                                            <li>
+                                                <img src="../assets/img/ミニハッカソン.jpg" alt="" style="width: 450px">
+                                            </li>
+                                            <li class="detail-center">
+                                                <p>詳細がここに表示されます<br>（今回は省略）
+                                                </p>
+                                            </li>
+                                        </ul>
+                                        <a href="http://127.0.0.1:5500/html/planning.html">
+                                            <button class="hidden" id="close-button">
+                                                閉じる
+                                            </button>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
+                        </li>
+                        <div class="join-par">
+                            <img src="../assets/img/handshake_8846.png" alt="" id="join" class="join-chi">
                         </div>
-                    </li>
-                    <div class="join-par">
-                        <img src="../assets/img/handshake_8846.png" alt="" id="join" class="join-chi">
+                        <script>
+                            document.addEventListener("DOMContentLoaded", function () {
+                                const joinjs = document.getElementById("join");
+                                if (joinjs) {
+                                    joinjs.addEventListener("click", function () {
+                                        joinjs.classList.toggle("color-change");
+                                    });
+                                } else {
+                                    console.error("Element with id 'join' not found.");
+                                }
+                            });
+                        </script>
                     </div>
-                </div>
-                <li class="Planning-item">
-                    <figure class="Planning-itemImage">
-                        <img src="../assets/img/BBQ.jpg" alt="バーベキュー">
-                    </figure>
-                    <div class="Planning-itembody">
-                        <div class="Planning-item-title">
-                            <h2>みんなでBBQ</h2>
-                        </div>
-                        <div class="Planning-detail">
-                            <p class="datetime">9/24(日) 19:00</p>
-                            <p class="where">東京臨海広域防災公園</p>
-                            <p class="parcitipants">17/25名</p>
-                            <p class="Planning-detail-button">詳細はこちら</p>
-                        </div>
-                    </div>
-                </li>
-                <li class="Planning-item">
-                    <figure class="Planning-itemImage">
-                        <img src="../assets/img/POSSE全体.jpg" alt="ミニハッカソン">
-                    </figure>
-                    <div class="Planning-itembody">
-                        <div class="Planning-item-title">
-                            <h2>POSSE全体で交流会</h2>
-                        </div>
-                        <div class="Planning-detail">
-                            <p class="datetime">9/17(日) 19:00</p>
-                            <p class="where">Harbors</p>
-                            <p class="parcitipants">12/25名</p>
-                            <p class="Planning-detail-button">詳細はこちら</p>
+                    <div class="list-item">
+                        <li class="Planning-item">
+                            <figure class="Planning-itemImage">
+                                <img src="../assets/img/BBQ.jpg" alt="バーベキュー">
+                            </figure>
+                            <div class="Planning-itembody">
+                                <div class="Planning-item-title">
+                                    <h2>みんなでBBQ</h2>
+                                </div>
+                                <div class="Planning-detail">
+                                    <p class="datetime">9/24(日) 19:00</p>
+                                    <p class="where">東京臨海広域防災公園</p>
+                                    <p class="parcitipants">17/25名</p>
+                                    <button class="Planning-detail-button" id="open-button1">詳細はこちら</button>
+                                    <div class="detail-content hidden" id="detail-sheet1">
+                                        <!-- なんかここに書く -->
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <div class="join-par">
+                            <img src="../assets/img/handshake_8846.png" alt="" id="join1" class="join-chi">
                         </div>
                     </div>
-                </li>
-            </ul>
+                    <div class="list-item">
+                        <li class="Planning-item">
+                            <figure class="Planning-itemImage">
+                                <img src="../assets/img/POSSE全体.jpg" alt="ミニハッカソン">
+                            </figure>
+                            <div class="Planning-itembody">
+                                <div class="Planning-item-title">
+                                    <h2>POSSE全体で交流会</h2>
+                                </div>
+                                <div class="Planning-detail">
+                                    <p class="datetime">9/17(日) 19:00</p>
+                                    <p class="where">Harbors</p>
+                                    <p class="parcitipants">12/25名</p>
+                                    <button class="Planning-detail-button" id="open-button2">詳細はこちら</button>
+                                    <div class="detail-content hidden" id="detail-sheet2">
+                                        <!-- なんかここに書く -->
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <div class="join-par">
+                            <img src="../assets/img/handshake_8846.png" alt="" id="join2" class="join-chi">
+                        </div>
+                    </div>
+                </ul>
+            </div>
         </div>
-    </div>
     </main>
     <footer class="planning-footer">
         <ul class="footer-head">
@@ -106,4 +155,5 @@
         </div>
     </footer>
 </body>
+
 </html>
