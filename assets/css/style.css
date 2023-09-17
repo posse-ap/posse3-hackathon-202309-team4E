@@ -3,7 +3,6 @@ html {
 }
 
 body {
-    padding-top: 130px;
     color: #333333;
     font-family: "Noto Sans JP", sans-serif;
 }
@@ -353,7 +352,9 @@ body {
 }
 
 .box1 {
-    width: 800px;
+    width: 100%;
+    height: 100%;
+    position: fixed;
 }
 
 .hidden {
@@ -586,7 +587,7 @@ body {
     letter-spacing: .1em;
     margin-top: 8px;
     color: #26b9ef;
-    font-family: 'Plus Jakarta Sans' ,sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -622,8 +623,12 @@ body {
 .Planning-list {
     display: flex;
     justify-content: start;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     gap: 15px;
+    height: 320.79px;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .Planning-item {
@@ -645,8 +650,9 @@ body {
     background-color: #e9e9e9;
 }
 
-.join-chi.color-change:hover{
-    background-color: #ffa300;;
+.join-chi.color-change:hover {
+    background-color: #ffa300;
+    ;
 }
 
 .join-chi {
@@ -661,8 +667,9 @@ body {
     width: 64px;
 }
 
-.color-change{
-    background-color: #ffa300;;
+.color-change {
+    background-color: #ffa300;
+    ;
 }
 
 /* イベントとリアクションのボタンを並べるための親要素です */
@@ -670,4 +677,56 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.detail-content {
+    position: fixed;
+    inset: 0;
+    background-color: rgb(255, 255, 255);
+
+}
+
+#close-button {
+    background-color: rgb(0, 13, 255);
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%);
+    color: white;
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 0.1em;
+    background-color: #0071bc;
+    display: inline-block;
+    padding: 0 12px;
+    border-radius: 5em;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: bold;
+}
+
+.Planning-detail-button {
+    font-size: 14px;
+    line-height: 1.8;
+    letter-spacing: 0.1em;
+    background-color: #0071bc;
+    color: #ffffff;
+    display: inline-block;
+    padding: 0 12px;
+    border-radius: 5em;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.detail-flex {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.detail-center {
+    padding-bottom: 50%
 }
