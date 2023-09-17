@@ -1,37 +1,37 @@
+html {
+	scroll-behavior: smooth;
+}
 
+body{
+    padding-top: 130px;
+}
 
+.header{
+    display: flex;
+    align-items: center;
+    height: 130px;
+    position: fixed;
+    width: 100%;
+    background-color: #F5CBDC;
+    top: 0%;
+    left: 0%;/**/
+    border-bottom: solid 1px #EEEEEE;
+    padding: 0 24px;
+    z-index: 10000;
+}
 
+.header-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 530px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.header-instaLink{
+    display: flex;
+    padding-left: 450px;
+    justify-content: center;
+}
 
 .mainvisual-nav-upper {
     display: flex;
@@ -94,210 +94,3 @@
     color: #fff;
     -webkit-text-stroke: 1px #ffdbd1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
