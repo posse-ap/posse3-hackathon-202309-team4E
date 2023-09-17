@@ -1,14 +1,14 @@
 html {
-	scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
-body{
+body {
     padding-top: 130px;
     color: #333333;
     font-family: "Noto Sans JP", sans-serif;
 }
 
-.header{
+.header {
     display: flex;
     align-items: center;
     height: 130px;
@@ -16,23 +16,27 @@ body{
     width: 100%;
     background-color: #F5CBDC;
     top: 0%;
-    left: 0%;/**/
+    left: 0%;
+    /**/
     border-bottom: solid 1px #EEEEEE;
     padding: 0 24px;
     z-index: 10000;
+    justify-content: center;
 }
 
-.header-logo{
+.header-logo {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 530px;
+    /* padding-left: 530px; */
 }
 
-.header-instaLink{
+.header-instaLink {
     display: flex;
-    padding-left: 450px;
+    /* padding-left: 450px; */
     justify-content: center;
+    position: absolute;
+    right: 48px;
 }
 
 .mainvisual-nav-upper {
@@ -97,30 +101,30 @@ body{
     -webkit-text-stroke: 1px #ffdbd1;
 }
 
-.section{
+.section {
     padding-top: 80px;
     margin-top: -80px;
 }
 
-.section-head{
+.section-head {
     text-align: center;
 }
 
-.section-body{
+.section-body {
     margin-top: 40px;
 }
 
-.section-lead{
+.section-lead {
     text-align: center;
 }
 
-.title{
+.title {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 20px;
 }
 
-.title-ja{
+.title-ja {
     font-size: 36px;
     line-height: 1.5;
     letter-spacing: .05em;
@@ -128,7 +132,7 @@ body{
     font-weight: bold;
 }
 
-.title-en{
+.title-en {
     font-weight: bold;
     display: block;
     font-size: 25px;
@@ -136,41 +140,41 @@ body{
     letter-spacing: .1em;
     margin-top: 8px;
     color: #f5cbdc;
-    font-family: 'Plus Jakarta Sans' ,sans-serif
+    font-family: 'Plus Jakarta Sans', sans-serif
 }
 
 
 /*イベント*/
-.setsumei{
+.setsumei {
     text-align: center;
     display: flex;
     justify-content: center;
 }
 
-.event-list{
+.event-list {
     padding: 40px;
     display: flex;
     flex-direction: column;
     gap: 120px;
 }
 
-.event-item{
+.event-item {
     display: flex;
     border-radius: 10px;
     background-color: #f5dfe7;
     min-height: 324px;
 }
 
-.event-item:nth-of-type(odd){
+.event-item:nth-of-type(odd) {
     flex-direction: row-reverse;
     margin-right: 40px;
 }
 
-.event-item:nth-of-type(even){
+.event-item:nth-of-type(even) {
     margin-left: 40px;
 }
 
-.event-itemimage{
+.event-itemimage {
     border-radius: 10px;
     overflow: hidden;
     width: 550px;
@@ -179,36 +183,37 @@ body{
     margin-top: -40px;
 }
 
-.img{
+.img {
     width: 100%;
 }
-.event-itemimage img{
+
+.event-itemimage img {
     object-fit: cover;
 }
 
-.event-item:nth-of-type(odd) .event-itemimage{
+.event-item:nth-of-type(odd) .event-itemimage {
     margin-right: -40px;
 }
 
-.event-item:nth-of-type(even) .event-itemimage{
+.event-item:nth-of-type(even) .event-itemimage {
     margin-left: -40px;
 }
 
-.event-itembody{
+.event-itembody {
     padding: 48px 56px;
     width: 100%;
 }
 
-.event-day{
+.event-day {
     font-weight: bold;
     font-size: 58px;
     color: white;
     line-height: 1;
     letter-spacing: 0.05em;
-    font-family: 'Plus Jakarta Sans' , sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
-.event-name{
+.event-name {
     font-weight: bold;
     font-size: 50px;
     line-height: 1.5;
@@ -216,14 +221,14 @@ body{
     margin-left: 20px;
 }
 
-.event-outline{
+.event-outline {
     margin-top: 40px;
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.event-outlineitem::before{
+.event-outlineitem::before {
     content: '';
     display: block;
     width: 50px;
@@ -234,7 +239,7 @@ body{
     background-size: contain;
 }
 
-.event-outlineitem{
+.event-outlineitem {
     display: flex;
     text-align: center;
     font-weight: bold;
@@ -245,7 +250,7 @@ body{
     align-items: center;
 }
 
-.event-description{
+.event-description {
     font-size: 20px;
     line-height: 1.8;
     letter-spacing: 0.05em;
@@ -282,6 +287,10 @@ body{
 }
 
 .footer-sns-img:hover {
+    filter: brightness(10)
+}
+
+.header-instaLink:hover{
     filter: brightness(10)
 }
 
