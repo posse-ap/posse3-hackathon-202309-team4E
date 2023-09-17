@@ -80,7 +80,7 @@ body{
 }
 
 .Members {
-    height: 400px;
+    height: 525px;
     background: url(../img/入学式.jpg) center center / cover no-repeat;
     position: relative;
     border-top: 2px solid #fff;
@@ -297,3 +297,4 @@ body{
     justify-content: center;
     color: #f5aaaa;
     width: 100%;
+}
