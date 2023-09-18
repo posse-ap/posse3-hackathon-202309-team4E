@@ -754,6 +754,7 @@ body {
 /* Planning.htmlのcss */
 
 .Planning-wrapper {
+    margin-top: 130px;
     padding: 0px 12px;
     display: flex;
     flex-direction: column;
