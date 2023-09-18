@@ -41,6 +41,7 @@ body {
 }
 
 .mainvisual-nav-upper {
+    margin-top: 130px;
     display: flex;
     height: 291.5px;
 }
