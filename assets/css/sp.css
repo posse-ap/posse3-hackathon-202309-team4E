@@ -1,0 +1,114 @@
+@media (max-width:1099px) {
+    .header {
+        max-width: 1099px
+    }
+
+    .header-logo {
+        padding-left: 0;
+    }
+
+    .event-list {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        overflow: auto;
+        justify-content: center;
+    }
+
+    .event-item:nth-of-type(even) {
+        flex-direction: column;
+        margin-left: 0;
+        width: 320px;
+        flex-shrink: 0;
+    }
+
+    .event-item:nth-of-type(odd) {
+        flex-direction: column;
+        width: 320px;
+        flex-shrink: 0;
+        margin-right: 0;
+    }
+
+    .event-item:nth-of-type(even) .event-list {
+        margin-left: 0;
+    }
+    
+    .event-itemimage:nth-of-type(even) .daily-img-par {
+        margin-left: 0;
+    }
+
+    .event-itemimage {
+        margin-top: 0;
+        margin-right: 0;
+        width: 100%;
+        height: 200px;
+        border-radius: 10px 10px 0 0;
+        margin-left: 0;
+    }
+
+    .event-itembody {
+        padding: 20px 24px;
+        
+    }
+
+    .event-item:nth-of-type(even) .event-itemimage {
+        margin-left: 0px;
+    }
+
+    .event-name{
+        display: inline-block;
+    }
+
+    .fontsize-15px{
+        font-size: 15px;
+    }
+}
+
+
+@media(max-width:768px) {
+    .mainvisual-nav-upper {
+        flex-direction: column;
+    }
+
+    .Planning {
+        height: 200px;
+        width: 100%;
+    }
+
+    .Recruiting {
+        height: 200px;
+        width: 100%;
+    }
+
+    .Members {
+        width: 100%;
+        height: 200px;
+    }
+
+    .recruiting-List{
+        justify-content: unset;
+        overflow: auto;
+    }
+}
+
+@media(max-width:500px) {
+    .header-instaLink {
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility .3s linear, opacity .3s linear;
+
+    }
+}
+
+@media(max-width:760px) {
+    .event-list{
+        justify-content: unset;
+    }
+}
+
+@media(max-width:300px){
+    .footer-logo-img{
+        width: 100px;
+    }
+    
+}
