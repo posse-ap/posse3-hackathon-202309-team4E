@@ -618,11 +618,13 @@ body {
     font-weight: bold;
     text-align: center;
     align-items: center;
+    padding-bottom: 20px;
 }
 
 .Planning-list {
     display: flex;
-    justify-content: start;
+    justify-content: 
+    start;
     flex-wrap: wrap;
     gap: 15px;
     height: 320.79px;
