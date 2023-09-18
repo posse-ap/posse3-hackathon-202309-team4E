@@ -23,7 +23,6 @@ let callback = (entries, observer) => {
                 entry.target.textContent += typeSprit[typeLength];
                 typeLength++;
             }, typeSpeed);
-
         }
     });
 }
