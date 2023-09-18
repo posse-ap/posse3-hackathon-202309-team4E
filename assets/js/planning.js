@@ -1,4 +1,4 @@
-
+// 
 //参加者リアクション
 
 // const CLbutton = document.getElementById("close-button")
@@ -62,6 +62,7 @@ document.addEventListener("DOMContentLoaded", function () {
 //     detail1.classList.toggle("hidden");
 //     detail2.classList.toggle("hidden");
 // });
+
 
 OPbutton.addEventListener("click", function () {
     detail.classList.toggle("hidden");
