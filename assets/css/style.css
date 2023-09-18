@@ -623,8 +623,6 @@ body {
 
 .Planning-list {
     display: flex;
-    justify-content: 
-    start;
     flex-wrap: wrap;
     gap: 15px;
     height: 320.79px;
