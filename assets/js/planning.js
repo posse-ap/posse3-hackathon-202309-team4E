@@ -1,4 +1,4 @@
-// 
+//このjsはかおるとようたが作りました
 //参加者リアクション
 
 // const CLbutton = document.getElementById("close-button")

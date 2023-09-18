@@ -1,3 +1,4 @@
+// このjsはりかこが作りました
 const slide = document.getElementById('slide');
 const prev = document.getElementById('prev');
 const next = document.getElementById('next');
