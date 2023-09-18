@@ -5,6 +5,7 @@ html {
 body {
     color: #333333;
     font-family: "Noto Sans JP", sans-serif;
+    padding-top: 130px;
 }
 
 .header {
@@ -629,6 +630,7 @@ body {
     overflow: auto;
     display: flex;
     justify-content: center;
+    height: 350px;
 }
 
 .Planning-item {
@@ -729,4 +731,24 @@ body {
 
 .detail-center {
     padding-bottom: 50%
+}
+
+.SANKA{
+    display: block;
+    font-size: 12px;
+}
+
+.Planning:hover{
+    filter:opacity(0.6);
+    transition: filter 0.25s linear;
+}
+
+.Recruiting:hover{
+    filter:opacity(0.6);
+    transition: filter 0.25s linear;
+}
+
+.Members:hover{
+    filter: opacity(0.6);
+    transition: filter 0.25s linear;
 }
