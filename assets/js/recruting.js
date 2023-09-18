@@ -1,3 +1,4 @@
+/*このページのjavascriptは角野が記述しました*/
 const typeTarget = document.querySelectorAll('.typeing');
 
 let options = {
@@ -23,7 +24,6 @@ let callback = (entries, observer) => {
                 entry.target.textContent += typeSprit[typeLength];
                 typeLength++;
             }, typeSpeed);
-
         }
     });
 }
